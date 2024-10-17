@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Poppin";
+  src: url("./assets/fonts/Poppin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: "Poppin", sans-serif;
+}
+
+.slick-slide {
+  width: auto !important;
+}
+
+.slick-track {
+  display: flex !important;
+  margin-left: 40% !important;
+}
+
+@media only screen and (max-width: 880px) {
+  .slick-slide {
+    width: 100% !important;
+  }
+
+  .slick-track {
+    display: flex !important;
+    margin-left: 19% !important;
+  }
+}
